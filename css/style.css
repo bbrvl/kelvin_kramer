@@ -1,4 +1,5 @@
 @import "./reset.css";
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 body {
@@ -61,6 +62,10 @@ body {
     font-size: 14px;
 }
 
+.nav-button {
+    display: none;
+}
+
 .nav-link {
     color:#000000;
 }
@@ -104,6 +109,13 @@ body {
 .services-row {
     display: flex;
     column-gap: 30px;
+    row-gap: 60px;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    flex: 1 1 0;
+    min-width: 330px;
 }
 
 .service-card-img {
@@ -154,7 +166,7 @@ body {
 }
 
 
-.project img {
+.project-img {
     margin-bottom: 40px;
 }
 
